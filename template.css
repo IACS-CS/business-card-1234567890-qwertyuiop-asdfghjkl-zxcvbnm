@@ -11,10 +11,30 @@ do not modify
   width: 3.5in;
   height: 2in;
   box-sizing: border-box;
-  border-radius: 2px;
-  background-color: rgba(86, 125, 129, 0.1);
+  border-radius: 4px;
+  background-color: rgba(86, 125, 129, 0.2);
   backdrop-filter: blur(10px);
 }
+ .topbar {
+  margin-right: 4px;
+  margin-left: 4px;
+  margin-top: 0px;
+  box-sizing: border-box;
+  border: 1px solid black ;
+  font-family: Segoe UI;
+  font-size: 10px;
+  height: 20px;
+  vertical-align: auto;
+}
+
+.exit {
+  text-align:right;
+  float: right;
+  height: 12px;
+  box-sizing: border-box;
+  border: 1px solid red
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -22,4 +42,5 @@ body {
   align-items: center;
   gap: 32px;
   min-height: 100vh;
+  background-image: url("");
 }
