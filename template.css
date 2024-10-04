@@ -35,6 +35,19 @@ do not modify
   border: 1px solid red
 }
 
+.exit:hover {
+  box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.5)
+}
+
+.inner {
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  box-sizing: border-box;
+  border: 1px solid blue;
+}
+
+
 body {
   display: flex;
   flex-direction: column;
