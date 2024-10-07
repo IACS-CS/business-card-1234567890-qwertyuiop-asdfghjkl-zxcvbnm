@@ -20,7 +20,6 @@ do not modify
   margin-left: 4px;
   margin-top: 0px;
   box-sizing: border-box;
-  border: 1px solid black ;
   font-family: Segoe UI;
   font-size: 10px;
   height: 20px;
@@ -31,12 +30,37 @@ do not modify
   text-align:right;
   float: right;
   height: 12px;
-  box-sizing: border-box;
-  border: 1px solid red
+  padding: 0px;
 }
-
+.window {
+  text-align:right;
+  float: right;
+  height: 12px;
+  padding: 0px;
+}
+.minimize {
+  text-align:right;
+  float: right;
+  height: 12px;
+  padding: 0px;
+}
 .exit:hover {
   box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.5)
+}
+.window:hover {
+  box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.5)
+}
+.minimize:hover {
+  box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.5)
+}
+.info { 
+  width: 40%;
+  height: 100%;
+  background-color: #DDDDEE;
+  box-sizing: border-box;
+  font-family: Segoe UI;
+  font-size: 10px;
+  padding-left: 4px
 }
 
 .inner {
@@ -44,7 +68,8 @@ do not modify
   margin-right: 4px;
   margin-bottom: 4px;
   box-sizing: border-box;
-  border: 1px solid blue;
+  height: 168px;
+  background-color: #FFFFFF
 }
 
 
